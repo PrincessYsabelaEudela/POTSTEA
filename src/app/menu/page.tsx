@@ -4,6 +4,8 @@ import Sidebar from "@/components/Sidebar";
 import MenuList from "@/components/MenuList";
 import { wixClientServer } from "@/lib/wixClientServer";
 
+export const dynamic = "force-dynamic";
+
 const MenuPage = async () =>  {
     return (
       <div>
