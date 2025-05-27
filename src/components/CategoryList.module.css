@@ -10,7 +10,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    gap: 10;
+    gap: 10px;
     position: relative; 
     /* background-color: var(--primary-clr-light); */
     /* padding: 10; */
@@ -21,12 +21,12 @@
 
 .card h3{
     color: var(--primary-text-clr);
-    padding: 5;
+    padding: 5px;
 }
 
 .img{
-    width: 270;
-    height: 320;
+    width: 270px;
+    height: 320px;
     object-fit: cover;
     border-radius: 5px;
 }
