@@ -14,7 +14,7 @@
     /* align-items: center; */
     display: flex;
     flex-direction: column;
-    gap: 30;
+    gap: 30px;
     width: 82%;
     /* height: 150vh; */
     justify-content: flex-start;
@@ -35,7 +35,7 @@
     /* height: auto; */
     /* position: -webkit-sticky; */
     position: sticky;
-    padding: 40 0;
+    padding: 40px 0;
     top: 10px;
     height: 98vh;
     overflow-y: scroll;
@@ -44,9 +44,9 @@
 }
 
 .menu h1{
-    padding: 0 15;
-    padding-top: 40;
-    padding-bottom: 15;
+    padding: 0 15px;
+    padding-top: 40px;
+    padding-bottom: 15px;
     /* border: 2px solid red; */
 
 }

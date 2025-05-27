@@ -32,7 +32,7 @@
     display: inherit;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 20;
+    gap: 20px;
 }
 
 .contactText h1{
@@ -42,7 +42,7 @@
 .icons{
     /* border: 2px solid blue; */
     display: inherit;
-    gap: 20;
+    gap: 20px;
 }
 
 .map{
