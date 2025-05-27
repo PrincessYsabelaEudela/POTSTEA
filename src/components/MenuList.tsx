@@ -4,7 +4,7 @@ import Image from "next/image";
 import { wixClientServer } from "@/lib/wixClientServer";
 import { products } from "@wix/stores";
 
-
+export const dynamic = "force-dynamic";
 const MenuList = async () => {
   const wixClient = await wixClientServer();
 
