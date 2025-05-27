@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #144C3F;
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo{
+    /* border: 2px solid green; */
+    width: auto;
+    height: 70px;
+    filter: invert(89%) sepia(5%) saturate(701%) hue-rotate(321deg) brightness(106%) contrast(101%);
+}
+
+.navbar nav{
+    display: flex;
+}
+
+.navbar nav ul {
+    list-style-type: none;  
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+    padding: 0;
+    align-items: center;
+}
+
+.navbar nav li {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar nav ul li a {
+    text-decoration: none; 
+    color: var(--primary-text-clr); 
+    font-size: var(--fs-5);
+}
+
+.navbar a {
+    /* border: 2px solid green; */
+    padding:0;
+    /* margin: 10px; */
+    color: var(--primary-text-clr);
+    font-size: var(--fs-3);
+    font-family: "Ranille", serif;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 15;
+}
