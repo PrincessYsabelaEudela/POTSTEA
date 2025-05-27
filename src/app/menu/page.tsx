@@ -39,5 +39,3 @@ const MenuPage = async () =>  {
   }
   
 export default MenuPage
-
-// 00000000-000000-000000-000000000001
