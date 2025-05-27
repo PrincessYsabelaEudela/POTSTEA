@@ -1,0 +1,52 @@
+.banner{
+    padding: var(--sec-padding);
+    text-align: center; 
+}
+
+.banner h1{
+    z-index: 2;
+    color: var(--primary-text-clr);
+    font-size: var(--fs-2);
+    width: 100%;
+}
+
+.menu{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 30;
+    width: 82%;
+    /* height: 150vh; */
+    justify-content: flex-start;
+    padding-right: 0 80px;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    height: auto;
+    position: relative;
+    padding: 6rem 80px;
+
+}
+
+.sidebar{
+    /* height: auto; */
+    /* position: -webkit-sticky; */
+    position: sticky;
+    padding: 40 0;
+    top: 10px;
+    height: 98vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* border: 2px solid red; */
+}
+
+.menu h1{
+    padding: 0 15;
+    padding-top: 40;
+    padding-bottom: 15;
+    /* border: 2px solid red; */
+
+}

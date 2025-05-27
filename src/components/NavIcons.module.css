@@ -1,0 +1,52 @@
+.icons{
+    align-self: center;
+    height: 35px;
+    /* width: 271.16px; */
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.usericon {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.carticon{
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.dropdown{
+    background-color: var(--primary-clr);
+    font-size: var(--fs-p);
+    position: absolute;
+    padding: 4px;
+    top: 80px;
+    right: 100px;
+    z-index: 20;
+}
+
+.dropdown a{
+    font-size: var(--fs-p);
+    margin: 0;
+    color: var(--secondary-text-clr);
+}
+
+.dropdown div{
+    font-size: var(--fs-p);
+    color: var(--secondary-text-clr);
+    font-family: "Fraunces", serif;
+}
+
+.itemnum{
+    position: absolute;
+    top: 30;
+    right: 60px;
+    background-color: var(--primary-clr);
+    padding: 3 7;
+    border-radius: 5;
+    color: var(--secondary-text-clr);
+}
