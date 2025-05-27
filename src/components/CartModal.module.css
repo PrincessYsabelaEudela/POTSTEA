@@ -10,15 +10,15 @@
 }
 
 .cart h2{
-    margin-bottom: 22;
-    padding-bottom: 10;
+    margin-bottom: 22px;
+    padding-bottom: 10px;
     border-bottom: 2px solid var(--secondary-clr);
 }
 
 .wrapper{
     display: flex;
     flex-direction: column;
-    gap: 22;
+    gap: 22px;
 }
 
 .cart h3{
@@ -46,7 +46,7 @@
 .title{
     display: flex;
     align-items: center;
-    gap: 20;
+    gap: 20px;
 }
 
 .bottom{
@@ -58,15 +58,15 @@
 .bottomCard{
     display: flex;
     flex-direction: column;
-    margin-top: 22;
-    padding-top: 5;
+    margin-top: 22px;
+    padding-top: 5px;
     border-top: 2px solid var(--secondary-clr);
 }
 
 .bottomCard p{
     font-size: small;
-    margin-top: 2;
-    margin-bottom: 20;
+    margin-top: 2px;
+    margin-bottom: 20px;
 }
 
 .subtotal{
@@ -81,7 +81,7 @@
 }
 
 .viewCart{
-    padding: 10 30;
+    padding: 10px 30px;
     border: 2px solid var(--secondary-clr);
     background-color: var(--primary-clr);
     color: var(--secondary-text-clr);
@@ -89,7 +89,7 @@
 }
 
 .checkOut{
-    padding: 10 30;
+    padding: 10px 30px;
     border: 2px solid var(--secondary-clr);
     background-color: var(--secondary-clr);
     color: var(--primary-text-clr);

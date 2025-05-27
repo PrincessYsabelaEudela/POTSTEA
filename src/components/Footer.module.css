@@ -18,7 +18,7 @@
 .logo{
     /* border: 2px solid green; */
     width: auto;
-    height: 254;
+    height: 254px;
     filter: invert(89%) sepia(5%) saturate(701%) hue-rotate(321deg) brightness(106%) contrast(101%);
 }
 
@@ -31,7 +31,7 @@
 .icons{
     display: flex;
     gap: 20px;
-    padding-top: 55;
+    padding-top: 55px;
 }
 
 .icons img{

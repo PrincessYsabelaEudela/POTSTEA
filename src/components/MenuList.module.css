@@ -1,7 +1,7 @@
 .cardContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
-    gap: 20;
+    gap: 20px;
 
 }
 
@@ -19,7 +19,7 @@
 }
 
 .cardContent{
-    padding: 10;
+    padding: 10px;
     /* border: 2px solid red; */
 }
 
@@ -31,13 +31,13 @@
 }
 
 .card span, .card h2, .card p, .cardContent button{
-    padding: 0 0 10 ;
+    padding: 0 0 10px ;
     font-size: var(--fs-p);
 }
 
 .cardContent button{
     width: max-content;
-    padding: 5 10;
+    padding: 5px 10px;
     background-color: transparent;
 }
 
@@ -49,6 +49,6 @@
 .img{
     width: 100%;
     height: auto;
-    border-radius: 5px 5 0 0 ;
+    border-radius: 5px 5px 0 0 ;
     object-fit: fill;
 }

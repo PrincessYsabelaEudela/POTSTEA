@@ -46,7 +46,7 @@
     top: 30;
     right: 60px;
     background-color: var(--primary-clr);
-    padding: 3 7;
-    border-radius: 5;
+    padding: 3px 7px;
+    border-radius: 5px;
     color: var(--secondary-text-clr);
 }
