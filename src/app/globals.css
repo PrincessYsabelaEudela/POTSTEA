@@ -49,14 +49,14 @@ p, h3,h4,h5,h6,div, span, button, a, Link, li{
 h1,h2 {
   font-weight: normal;
   font-family: "Ranille";
-  letter-spacing: 0.25;
+  letter-spacing: 0.25px;
   line-height: 1.5;
   color: var(--secondary-text-clr);
   
 }
 
 button{
-  padding: 10 40;
+  padding: 10px 40px;
   font-size: var(--fs-6);
   cursor: pointer;
   border-radius: 3px ;
